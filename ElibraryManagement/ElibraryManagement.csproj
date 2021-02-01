@@ -1759,6 +1759,8 @@
     <Content Include="skillprofile.aspx" />
     <Content Include="adminauthormanagement.aspx" />
     <Content Include="adminpublishermanagement.aspx" />
+    <Content Include="adminmembermanagement.aspx" />
+    <Content Include="adminbookinventory.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="homepage.aspx.cs">
@@ -1831,6 +1833,20 @@
     </Compile>
     <Compile Include="adminpublishermanagement.aspx.designer.cs">
       <DependentUpon>adminpublishermanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminmembermanagement.aspx.cs">
+      <DependentUpon>adminmembermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminmembermanagement.aspx.designer.cs">
+      <DependentUpon>adminmembermanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.designer.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
